@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #1e212b;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1{
+    
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #31b800;
+    border: 1px solid #31b800;
+}
+
+button:hover{
+    background-color: #227d01;
+    border: 1px solid #227d01;
+}
+
+#calc-box{
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#page-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.calc-row{
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+#page-wrapper #fourth-row{
+    justify-content: end!important;
+}
+
+#upper-row, #lower-row{
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+}
+
+#upper-row input{
+    width: 50%;
+}
+
+#lower-number{
+    text-align: right;
+}
+
+input{
+    background-color: #1e212b;
+    color: #fff;
+    height: 32px;
+}
+
+input[name=upper-number] {
+    pointer-events: none;
+    border: none;
+    text-align: right;
+  }
+
+  input[name=lower-number] {
+    pointer-events: none;
+    border: 1px solid #fff;
+  }

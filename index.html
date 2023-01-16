@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="styles.css">
+        <title>The Odin Project | Calculator</title>
+    </head>
+    <body>
+        <div id="page-wrapper"> 
+            <div id="calc-box">
+                <div id="upper-row" class="calc-row">
+                    <input type="text" id="upper-number" name="upper-number">
+                </div>
+                <div id="lower-row" class="calc-row">
+                    <input type="text" id="lower-number" name="lower-number">
+                </div>
+                <div id="top-row" class="calc-row">
+                    <button onclick="writeNum()">7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>%</button>
+                </div>
+                <div id="second-row" class="calc-row">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>*</button>
+                </div>
+                <div id="third-row" class="calc-row">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>+</button>
+                </div>
+                <div id="fourth-row" class="calc-row">
+                    <button>0</button>
+                    <button>C</button>
+                    <button>AC</button>
+                    <button onclick="Operate()">=</button> 
+                </div>
+                <script src="calc.js"></script> 
+            </div>
+        </div>
+    </body>
+</html>

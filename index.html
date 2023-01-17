@@ -17,27 +17,31 @@
                     <input type="text" id="lower-number" name="lower-number">
                 </div>
                 <div id="top-row" class="calc-row">
-                    <button onclick="writeNum()">7</button>
-                    <button>8</button>
-                    <button>9</button>
-                    <button>%</button>
+                    <button onclick="writeNum(7)">7</button>
+                    <button onclick="writeNum(8)">8</button>
+                    <button onclick="writeNum(9)">9</button>
+                    <button onclick="setVar('%')">%</button>
                 </div>
                 <div id="second-row" class="calc-row">
-                    <button>4</button>
-                    <button>5</button>
-                    <button>6</button>
-                    <button>*</button>
+                    <button onclick="writeNum(4)">4</button>
+                    <button onclick="writeNum(5)">5</button>
+                    <button onclick="writeNum(6)">6</button>
+                    <button onclick="setVar('*')">*</button>
                 </div>
                 <div id="third-row" class="calc-row">
-                    <button>1</button>
-                    <button>2</button>
-                    <button>3</button>
-                    <button>+</button>
+                    <button onclick="writeNum(1)">1</button>
+                    <button onclick="writeNum(2)">2</button>
+                    <button onclick="writeNum(3)">3</button>
+                    <button onclick="setVar('+')">+</button>
                 </div>
                 <div id="fourth-row" class="calc-row">
-                    <button>0</button>
-                    <button>C</button>
-                    <button>AC</button>
+                    <button onclick="writeNum('.')">.</button>
+                    <button onclick="writeNum(0)">0</button>
+                    <button onclick="allClear()">AC</button>
+                    <button onclick="setVar('-')">-</button>
+                </div>
+                <div id="fifth-row" class="calc-row">
+                    <button onclick="clearVal()">C</button>
                     <button onclick="Operate()">=</button> 
                 </div>
                 <script src="calc.js"></script> 
